@@ -12,5 +12,7 @@ end
 
 def swap_elements(array)
   array << array[2]
+  array.drop[1]
   array << array[1]
+  array.drop[2]
 end
