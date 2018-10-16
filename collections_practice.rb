@@ -26,7 +26,7 @@ end
 
 def kesha_maker(array)
   array.collect do |name|
-    name.to_a
+    name.split
     name[2] = "$"
   end
 end
