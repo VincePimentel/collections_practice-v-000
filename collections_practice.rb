@@ -12,7 +12,7 @@ end
 
 def swap_elements(array)
   array.each do |i|
-    array[1] = array[2]
-    array[2] = array[1]
+    array[1] = array[i]
+    array[2] = array[i]
   end
 end
