@@ -1,3 +1,3 @@
 def sort_array_asc(array)
-  array.sort { |a, b| b <=> a }
+  array.sort { |a, b| a <=> b }
 end
