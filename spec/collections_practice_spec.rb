@@ -34,6 +34,7 @@ describe 'collections practice' do
   describe 'swap_elements_from_to' do
     it 'swap two elements from two given indexes' do
       expect(swap_elements_from_to(["a", "b", "c", "d"])).to eq(["a", "d", "c", "b"])
+      expect(swap_elements_from_to(["a", "b", "c", "d"])).to eq(["b", "a", "c", "b"])
     end
   end
 
